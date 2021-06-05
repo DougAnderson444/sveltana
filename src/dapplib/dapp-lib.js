@@ -13,6 +13,10 @@ export default class DappLib {
     this.solana = new Solana({endpoint: this.network})
   }
 
+  getPublicKey(key){
+    return Solana.getPublicKey(key)
+  }
+
   static getConfig() {
     return dappConfig
   }

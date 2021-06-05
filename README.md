@@ -8,6 +8,8 @@ Had issues with solana/web3 in the browser, so made this to make life easier. Wh
 
 ## Usage
 
+See src/routes/index.svelte for good ideas club, such as simple example below:
+
 ```js
 // somewhere.svelte
 

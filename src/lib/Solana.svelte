@@ -2,12 +2,12 @@
   import { onMount } from "svelte"
   import Dapp from "../dapplib/dapp-lib.js"
 
+  export let dapp
+
   export let config = {
     // defaults
     network: "devnet",
   }
-
-  export let dapp
 
   onMount(async () => {
     import("buffer").then((Buffer) => {
@@ -15,8 +15,6 @@
     })
 
     dapp = new Dapp(config)
-
-    console.log({ dapp })
   })
 </script>
 
@@ -25,5 +23,3 @@
     global = globalThis // for solana web3 repo
   </script>
 </svelte:head>
-
-Solana Setup

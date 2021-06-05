@@ -1,0 +1,23 @@
+{
+  "name": "sveltana",
+  "version": "0.0.1",
+  "description":"Solana packaged into a Svelte Component for use in Svelte, Browsers, and REPLs",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "package:up": "svelte-kit package"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.1.4",
+    "@solana/spl-token-registry": "^0.2.114",
+    "@solana/web3.js": "^1.12.0",
+    "buffer": "^6.0.3"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.34.0"
+  },
+  "type": "module",
+  "keywords": ["solana", "svelte", "repl", "browser", "douganderson444"]
+}

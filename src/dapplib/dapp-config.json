@@ -1,0 +1,33 @@
+{
+  "httpUri": "https://devnet.solana.com",
+  "contracts": {},
+  "accounts": [
+    "2kNoPZhth7i9nRBQikdHUUYP9vx9FqPQP66zaQFDEtoU",
+    "3mnncwwUvqTaJUrh4x8KDKpncZLuek2YoBodprX9RgJu"
+  ],
+  "wallets": [
+    {
+      "publicKey": "2kNoPZhth7i9nRBQikdHUUYP9vx9FqPQP66zaQFDEtoU",
+      "privateKey": "2zNyXR2S1FDExbybBJScdmvdB3hXyfGNQ6JnyTj6KABu5rgCMC2U4ija4ysn7PKNpycBUghPkqbWuHQFryCduaYJ"
+    },
+    {
+      "publicKey": "3mnncwwUvqTaJUrh4x8KDKpncZLuek2YoBodprX9RgJu",
+      "privateKey": "47hvaaRWXej4SYdRfQbVzwSEmaXgtqPirDfZm3jiWGTcz3Azx5ZfevKYWiF7Y8HyDFbHwETtWazt9MVAoG9zC6em"
+    }
+  ],
+  "programInfo": {
+    "programId": "J6ULQK37p5shkcuTnxfXLaxt1ecnPULg5FeV1XSYAREP",
+    "programAccounts": {
+      "payer": {
+        "publicKey": "2kNoPZhth7i9nRBQikdHUUYP9vx9FqPQP66zaQFDEtoU",
+        "privateKey": "2zNyXR2S1FDExbybBJScdmvdB3hXyfGNQ6JnyTj6KABu5rgCMC2U4ija4ysn7PKNpycBUghPkqbWuHQFryCduaYJ",
+        "lamports": 303827920
+      },
+      "counter": {
+        "publicKey": "3mnncwwUvqTaJUrh4x8KDKpncZLuek2YoBodprX9RgJu",
+        "privateKey": "47hvaaRWXej4SYdRfQbVzwSEmaXgtqPirDfZm3jiWGTcz3Azx5ZfevKYWiF7Y8HyDFbHwETtWazt9MVAoG9zC6em",
+        "lamports": 918720
+      }
+    }
+  }
+}

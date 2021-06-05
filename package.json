@@ -1,6 +1,6 @@
 {
   "name": "sveltana",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description":"Solana packaged into a Svelte Component for use in Svelte, Browsers, and REPLs",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -19,5 +19,11 @@
     "svelte": "^3.34.0"
   },
   "type": "module",
-  "keywords": ["solana", "svelte", "repl", "browser", "douganderson444"]
+  "keywords": ["solana", "svelte", "repl", "browser", "douganderson444"],
+  "homepage": "https://github.com/DougAnderson444/sveltana",
+  "bugs": "https://github.com/DougAnderson444/sveltana",
+  "license": "MIT",
+  "author": "Doug Anderson <douganderson444@gmail.com>",
+  "funding": "Doug Anderson <douganderson444@gmail.com>", 
+  "repository": "https://github.com/DougAnderson444/sveltana"
 }

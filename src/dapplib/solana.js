@@ -14,14 +14,18 @@ import {
 import * as bs58 from "bs58"
 import DataLayouts from "./scripts/layouts.js"
 
+import { ENDPOINTS } from "./contexts/connection";
+
 const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID = new PublicKey(
   "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
 )
 
 export class Solana {
   constructor(config) {
-    this.serviceUri = config.httpUri
-    this.connection = new Connection(this.serviceUri, "singleGossip")
+
+    const chain = ENDPOINTS.find((end) => end.name === config.endpoint) || ENDPOINTS[0]
+    // this.serviceUri = chain.endpoint
+    this.connection = new Connection(chain.endpoint, "singleGossip")
   }
 
   /**

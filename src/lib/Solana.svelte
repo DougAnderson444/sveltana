@@ -2,7 +2,10 @@
   import { onMount } from "svelte"
   import Dapp from "../dapplib/dapp-lib.js"
 
-  export let config
+  export let config = {
+    // defaults
+    network: "devnet",
+  }
 
   export let dapp
 

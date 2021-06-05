@@ -4,12 +4,13 @@ import * as bs58 from "bs58"
 import dappConfig from "./dapp-config.json"
 import { Account, Keypair, PublicKey } from "@solana/web3.js"
 import { AccountLayout, u64 } from "@solana/spl-token"
+import { getNetworkId } from "./utils/ids.js";
 
 export default class DappLib {
-  constructor() {
+  constructor(config = {}) {
     this.config = DappLib.getConfig()
-    this.solana = new Solana(this.config)
-    this.network = this.config.httpUri.indexOf("devnet") ? "devnet" : "mainnet"
+    this.network = getNetworkId(config?.network) || "devnet"
+    this.solana = new Solana({endpoint: this.network})
   }
 
   static getConfig() {

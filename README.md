@@ -14,7 +14,7 @@ Had issues with solana/web3 in the browser, so made this to make life easier. Wh
 import Solana from 'sveltana'
 
 let config = {
-    net: 'devnet' || 'main'
+    network: 'devnet' || 'main'
 }
 
 <Solana {config} />

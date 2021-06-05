@@ -13,11 +13,21 @@ Had issues with solana/web3 in the browser, so made this to make life easier. Wh
 
 import Solana from 'sveltana'
 
+let dapp 
+
 let config = {
     network: 'devnet' || 'main'
 }
 
-<Solana {config} />
+<Solana {config} bind:dapp />
+
+{#if dapp}
+
+  Now use dapp for Solana access
+
+  {dapp.network}  // devnet
+
+{/if}
 
 ```
 

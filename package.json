@@ -1,6 +1,6 @@
 {
   "name": "sveltana",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":"Solana packaged into a Svelte Component for use in Svelte, Browsers, and REPLs",
   "scripts": {
     "dev": "svelte-kit dev",

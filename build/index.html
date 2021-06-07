@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script data-svelte="svelte-1obvje">global = globalThis // for solana web3 repo
+  </script>
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-b1544c85.js">
+		<link rel="modulepreload" href="/./_app/chunks/index-084d44d4.js">
+		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-3686807e.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-e4ca0e0a.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-b1544c85.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-3686807e.js"),
+						import("/./_app/pages/index.svelte-e4ca0e0a.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<h1>Example usage for Sveltana</h1>
+
+
+
+
+
+
+	
+</div>
+	</body>
+</html>
